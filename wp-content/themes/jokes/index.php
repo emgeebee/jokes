@@ -11,7 +11,6 @@
 				while ( have_posts() ) : the_post();
 					the_content();
 				endwhile;
-
 				// Reset Query
 				wp_reset_query();
 			?>
